@@ -55,7 +55,7 @@ public class Ahorcado {
             }
         }
 
-        // al fallar todos los intentos se muestra un mensaje que no gano
+        // al fallar todos los intentos se muestra un mensaje que el usuario no gano.
         if (!palabraAdivinada) {
             System.out.println("Se acabaron los intentos. Game Over.");
         }
